@@ -39,7 +39,7 @@ There is an option to only retreive the country information and thus excluding t
     GeoIp.geolocation('209.85.227.104', :precision => :country)
 
 returns:
-
+```ruby
     {
       :status_code    => "OK",
       :status_message => "",
@@ -47,6 +47,7 @@ returns:
       :country_code   => "US",
       :country_name   => "UNITED STATES"
     }
+```
 
 ### Timezone information
 
