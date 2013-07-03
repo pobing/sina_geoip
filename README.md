@@ -28,7 +28,8 @@ Or install it yourself as:
     # 12.130.132.30 = sina.com.cn (CN)
     GeoIp.geolocation('12.130.132.30')
 
-returns:
+returns:  
+
   {
     :ret => 1, 
     :start => "202.108.24.0", 
@@ -81,6 +82,9 @@ returns:
 
   } 
 
+## Test
+
+    rspec spec/sina_geoip/sina_geoip_spec.rb
 
 ## Contributors
 
